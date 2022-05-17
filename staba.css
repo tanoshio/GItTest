@@ -1,0 +1,31 @@
+
+.container{
+    width: 1920px;
+    height: 1080px;
+    display: flex;
+    border: 1px solid yellow;
+    background-color: antiquewhite;
+}
+header {
+    text-align: center;
+    width: 100px;
+    border: 1px solid palevioletred;
+}
+header p {
+    text-align: center;
+}
+
+#main {
+    width: 850px;
+    border: 1px solid blue;
+    
+}
+#sub {
+    width: 860px;
+    
+    border: 1px solid orangered;
+}
+footer {
+    width: 100px;
+    border: 1px solid black;
+}
