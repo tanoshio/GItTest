@@ -4,7 +4,7 @@
     height: 1080px;
     display: flex;
     border: 1px solid yellow;
-    background-color: antiquewhite;
+    background-color: rgb(251, 244, 234);
 }
 header {
     text-align: center;
@@ -21,11 +21,41 @@ header p {
     
 }
 #sub {
-    width: 860px;
     
+    width: 860px;
     border: 1px solid orangered;
+}
+#sub img {
+    display: block;
+    margin: 30px;
+}
+
+.sub_container{
+
+    display: flex;
+    background-color: white;
+    margin: 30px;
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+}
+.sub_container p {
+    font-size: small;
+    text-align: ;
+}
+.sub_container img {
+    width: 40%;
 }
 footer {
     width: 100px;
     border: 1px solid black;
+    
 }
+footer p {
+    text-align: center;
+}
+
+/* 
+flex-direction: column;
+ text-align: center;
+ justify-content: space-between; */
